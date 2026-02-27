@@ -33,7 +33,7 @@ namespace CalculadoraApp
                 Console.WriteLine(" 2.-RESTAR ");
                 Console.WriteLine(" 3.-MULTIPLICAR ");
                 Console.WriteLine(" 4.-DIVIDIR ");
-                Console.WriteLine(" 4.-DIVIDIR ");
+                Console.WriteLine(" 4.-Raiz ");
                 Console.WriteLine(" 7.-FACTORIAL ");
                 Console.Write(" Escoge una operación a ejecutar: ");
                 operacion = int.Parse(Console.ReadLine());
@@ -157,6 +157,7 @@ namespace CalculadoraApp
 
             } while (continuar != 'N');
             Console.WriteLine("\nUsuario: " + nombre + " Ha realizado " + cuenta_operaciones + " operaciones. \nSaliendo del Sistema.");
+            //tiene que realizarse otro cambio
             // Esta es una actualización de prueba
 
 
