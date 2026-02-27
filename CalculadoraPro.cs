@@ -157,6 +157,7 @@ namespace CalculadoraApp
 
             } while (continuar != 'N');
             Console.WriteLine("\nUsuario: " + nombre + " Ha realizado " + cuenta_operaciones + " operaciones. \nSaliendo del Sistema.");
+            // Esta es una actualización de prueba
 
 
 
