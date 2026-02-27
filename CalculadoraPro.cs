@@ -132,7 +132,6 @@ namespace CalculadoraApp
                             Console.WriteLine("numero Ingresado: " + numeroIngresado + "\nSu factorial es" + " = " + fact);
                             cuenta_operaciones++;
                             break;
-
                     }
 
                 }
